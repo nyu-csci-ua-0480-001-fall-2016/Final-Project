@@ -38,6 +38,19 @@
     
 <h2>Wireframes</h2>
 
-/homepage
-![Alt text](../images/image1.jpg?raw=true "Optional Title")
+/home -homepage where users can choose to register or login
+
+![Alt text](final-project/public/images/image1.jpg?raw=true "homepage")
+
+
+/home/login -authetication
+![Alt text](final-project/public/images/image2.jpg?raw=true "homepage")
+
+
+/home/regist -create a new account
+![Alt text](final-project/public/images/image3.jpg?raw=true "homepage")
+
+/home/sleeplog -users update their sleeping time
+![Alt text](final-project/public/images/image4.jpg?raw=true "homepage")
+
 
