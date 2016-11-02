@@ -36,4 +36,8 @@
         sleep: [Sleep]
     })
     
+<h2>Wireframes</h2>
+
+/homepage
+![Alt text](../images/image1.jpg?raw=true "Optional Title")
 
