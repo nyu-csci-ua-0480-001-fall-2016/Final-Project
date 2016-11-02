@@ -41,10 +41,8 @@
 /home   -homepage where users can choose to register or login
 ![Alt text](final-project/public/images/image1.jpg?raw=true "homepage")
 
-
 /home/login   -user log in
 ![Alt text](final-project/public/images/image2.jpg?raw=true "log in")
-
 
 /home/log-sleep-time   -users update their sleeping time
 ![Alt text](final-project/public/images/image3.jpg?raw=true "log sleep time")
@@ -58,14 +56,14 @@
 
 
 <h2>User Stories</h2>
-1.as a user, I can add my sleeping schedule to the website
-2.as a user, I can create another sleeping lot for my friends/families
-3.as a user, I can view all of the sleeping log I've created
+>1.as a user, I can add my sleeping schedule to the website
+>2.as a user, I can create another sleeping lot for my friends/families
+>3.as a user, I can view all of the sleeping log I've created
 
 
 <h2>Research Topics</h2>
-1. Integrate user authentication
-2. How to perform client side form validation using a JavaScript library
-3. How to perform some amazing new JavaScript library
+>1. Integrate user authentication
+>2. How to perform client side form validation using a JavaScript library
+>3. How to perform some amazing new JavaScript library
 
 
