@@ -56,9 +56,9 @@
 
 
 <h2>User Stories</h2>
->1.as a user, I can add my sleeping schedule to the website
->2.as a user, I can create another sleeping lot for my friends/families
->3.as a user, I can view all of the sleeping log I've created
+>1. as a user, I can add my sleeping schedule to the website
+>2. as a user, I can create another sleeping lot for my friends/families
+>3. as a user, I can view all of the sleeping log I've created
 
 
 <h2>Research Topics</h2>
