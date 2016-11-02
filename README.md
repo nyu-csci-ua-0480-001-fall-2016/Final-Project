@@ -7,11 +7,33 @@
 
   First draft schema:
   
-  var User = new mongoose.Schema({
-    //username, password provided by plugin
-    lists:  [{ type: mongoose.Schema.Types.ObjectId, ref: 'List' }]
-  });
+    // users
+    // * our site requires authentication...
+    // * so users have a username and password
+    // * they also can have 0 or more lists to keep track of loved ones' sleep schedules too
+    // * (even though I think it is weird to log on others' sleep schedule )
+    var User = new mongoose.Schema({
+        //username, password provided by plugin
+        lists:  [{ type: mongoose.Schema.Types.ObjectId, ref: 'List' }]
+    });
   
-  var Sleep = new mongoose.Schema({
+  
+    // an sleep (or group of the same sleep in a sleep list)
+    // * includes the bedTime and wakeupTime 
+    var Sleep = new mongoose.Schema({
+        badTime: {type: Number, required: true},
+        wakeupTime: {type: Number, required: true}
+    },{
+        _id: true    
+    });
     
-  })
+    // a sleep list
+    // * each list must have a related user
+    // * a list can have 0 or more items
+    var List = new mongoose.Schema({
+        user: user: {type: mongoose.Schema.Types.ObjectId, ref:'User'},
+        createdAt: {type: Date, required: true},
+        sleep: [Sleep]
+    })
+    
+
